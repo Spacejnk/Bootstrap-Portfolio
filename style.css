@@ -1,11 +1,41 @@
 .tile {
-    background: url("../floor-tile.png") repeat 0 0;
+    background-image: url("floor-tile.png");
+    width:100%;
+    height: 1290px;
 }
 
-/* .about-me {
-    margin-left: 90px;
-    font-size: 40px;
+.C {
+  background-color: white;
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.D {
     
-} */
+    color: red;
+}
 
+.F {
+    height: 40px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
 
+}
+
+.MF {
+  height: 60px;
+  position: relative;
+  width: ;
+  background-color: #4aaaa5;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: -10px;
+}
