@@ -1,3 +1,4 @@
+  /* Background Image */
 .tile {
     background-image: url("floor-tile.png");
     width:100%;
@@ -5,7 +6,10 @@
     overflow: scroll;
     margin-right: auto;
     margin-left: auto;
+    padding: 30px;
+    margin-top: -45px;
 }
+ /* Container C, D */
 
 .C {
     background-color: white;
@@ -17,10 +21,11 @@
 }
 
 .D {
-    
-    color: red;
+    overflow: scroll;
 }
 
+
+ /* Footers F and MF */
 .F {
     height: 40px;
     position: relative;
@@ -63,3 +68,10 @@
     padding-right: 10%;
     margin-left: 20%
   }
+
+  .form {
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  
