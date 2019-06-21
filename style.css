@@ -18,14 +18,16 @@
   margin-bottom: 50px;
 
 }
-
+.xx {
+  margin: auto;
+  padding-left: 270px;
+  text-align: center;
+}
 
 .C {
     background-color: white;
     max-width: 960px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 20px;
+    
     padding: 20px;
 }
 
