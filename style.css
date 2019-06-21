@@ -1,4 +1,8 @@
+  body{
+    margin: 0;
+  }
   /* Background Image */
+ 
 .tile {
     background-image: url("floor-tile.png");
     width:100%;
@@ -9,7 +13,12 @@
     padding: 30px;
     margin-top: -45px;
 }
- /* Container C, D */
+ /* Container A, C, D */
+ .A {
+  margin-bottom: 50px;
+
+}
+
 
 .C {
     background-color: white;
@@ -24,7 +33,6 @@
     overflow: scroll;
 }
 
-
  /* Footers F and MF */
 .F {
     height: 40px;
@@ -35,17 +43,18 @@
     background-color: #666666;
     color: white;
     text-align: center;
+    
 
 }
 
 .MF {
     height: 60px;
     position: relative;
-    width: ;
     background-color: #4aaaa5;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: -10px;
+    
 }
 
 /* Portfolio */
